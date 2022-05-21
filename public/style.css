@@ -1,0 +1,46 @@
+.button{
+    background: orange;
+    padding: 20px;
+    font-size: 18px;
+    margin:20px;
+    cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.emotions{
+    width: 200px;
+    height:200px;
+    background:yellow;
+    border-radius:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.eye{
+    width: 20px;
+    height: 20px;
+    background:brown;
+    border-radius:500px;
+}
+.eyeContainer{
+    display:flex;
+    justify-content: space-between;
+    width:60%;
+}
+
+.mouth{
+    width: 80px;
+    height: 50px;
+    background:brown;
+    border-bottom-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    margin-top:30px;
+}
